@@ -1,0 +1,8 @@
+1. Save all files to ONE folder.
+
+2. Open Example4DS01.Rmd in Rstudio.
+
+3. Install required R packages. 
+   (randomForest, tm, ggplot2, wordcloud, RCurl, XML)
+
+4. Click "Run Document" or "Ctrl+Shift+K".
