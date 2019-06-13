@@ -114,7 +114,7 @@ docs <- tm_map(docs, removeNumbers)
 docs <- tm_map(docs, removePunctuation)
 docs <- tm_map(docs, content_transformer(tolower))
 
-## James Hiebert's suggestion is accepted here.
+## James' suggestion is accepted here.
 reduns <- c(" a ", " b ", " I ", " the ", " and ", " more ", " you "," your ", " that ",
   " with ", " are ", " than ", " out ", " other ", " all ", " from ", " have ",
   " many ", " which ", " any ", " about ", " used ", " their ", " first ", " like ",
